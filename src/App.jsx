@@ -40,12 +40,12 @@ const DEFAULT_SECTIONS = [
    FIREBASE
 ══════════════════════════════════════════════════════════════════ */
 const FIREBASE_CONFIG = {
-  apiKey:            "AIzaSyBaobQnc7StJuQogP3mwcFYOQc_Yoad-00",
-  authDomain:        "psycodeploy.firebaseapp.com",
-  projectId:         "psycodeploy",
-  storageBucket:     "psycodeploy.firebasestorage.app",
-  messagingSenderId: "88393666938",
-  appId:             "1:88393666938:web:48240219859fedc54e86c3"
+  apiKey: "AIzaSyAILW-zM3QMETZRtNsmXr0koKxFM7K7SGE",
+  authDomain: "centromenteviva.firebaseapp.com",
+  projectId: "centromenteviva",
+  storageBucket: "centromenteviva.firebasestorage.app",
+  messagingSenderId: "837723421921",
+  appId: "1:837723421921:web:022895eeb332099a0ccba0"
 };
 const _fbApp = initializeApp(FIREBASE_CONFIG);
 const _fs    = getFirestore(_fbApp);
